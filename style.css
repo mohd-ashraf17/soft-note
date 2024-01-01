@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(41, 3, 77);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addnote {
+    position: fixed;
+    right: 10px;
+    background-color: royalblue;
+    padding: 8px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.note {
+    width: 25rem;
+    height: 30rem;
+    background-color: white;
+    margin: 3rem 2rem;
+}
+
+.tool {
+    color: white;
+    background-color: black;
+    padding: .8rem;
+    display: flex;
+    justify-content: end;
+}
+
+.tool i {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.note textarea {
+    border: none;
+    width: 99%;
+    height: 90.7%;
+    resize: none;
+    font-size: 1rem;
+    padding: .1rem;
+}
+
+.note textarea:focus {
+    outline: 0;
+}
